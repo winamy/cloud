@@ -1,0 +1,10 @@
+description = '服务提供者api公用模块'
+
+dependencies {
+    compile (
+            'org.springframework.cloud:spring-cloud-starter-openfeign'
+    )
+    compile project(
+            ':cloud-common'
+    )
+}

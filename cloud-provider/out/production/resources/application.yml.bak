@@ -1,0 +1,9 @@
+test:
+    say: winamy1
+server:
+  port: 8763
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

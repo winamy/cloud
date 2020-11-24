@@ -1,0 +1,14 @@
+description = '服务公用模块'
+
+dependencies {
+    compile(
+            'org.springframework.boot:spring-boot-starter-web',
+            'org.springframework.boot:spring-boot-starter-actuator',
+            'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery',
+            'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config',
+            'org.springframework.boot:spring-boot-starter-data-redis-reactive'
+    )
+    compile project(
+            ':cloud-common'
+    )
+}

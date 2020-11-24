@@ -1,0 +1,22 @@
+
+p
+java:S3008"SRename this field "FAIL_MSG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ϋοφ8ν„ά.
+W
+java:S1118
+":Add a private constructor to hide the implicit public one.(Η”γγ8ν„ά.
+x
+java:S3008"VRename this field "SUCCESS_MSG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΪΘπψϊÿÿÿÿ8ν„ά.
+Q
+java:S3740"/Provide the parametrized type for this generic.(ΩΦ‰ϊÿÿÿÿ8ν„ά.
+v
+java:S3008"TRename this field "FAIL_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ζ€οχωÿÿÿÿ8ν„ά.
+Q
+java:S3740"/Provide the parametrized type for this generic.(έ¤όÿÿÿÿÿ8ν„ά.
+L
+java:S3740"/Provide the parametrized type for this generic.(Ή8ν„ά.
+Q
+java:S3740"/Provide the parametrized type for this generic.(η§Ο“ώÿÿÿÿ8ν„ά.
+y
+java:S3008"WRename this field "SUCCESS_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«η“ϋÿÿÿÿ8ν„ά.
+L
+java:S3740"/Provide the parametrized type for this generic.(Ϋ²΅8ν„ά.

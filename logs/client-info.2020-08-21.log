@@ -1,0 +1,101 @@
+2020-08-21 17:43:43.548 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-21 17:43:43.606 [main] INFO  Limiter - limitTime:5.0
+2020-08-21 17:43:43.668 [main] INFO  JVMUtil - isMultiInstance:false
+2020-08-21 17:43:43.688 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-client-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-client.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-client,DEFAULT_GROUP'}]
+2020-08-21 17:43:43.693 [main] INFO  ClientApplication - The following profiles are active: dev
+2020-08-21 17:43:44.892 [main] INFO  GenericScope - BeanFactory id=3ee22360-666d-322a-8312-cc7faa25bc6c
+2020-08-21 17:43:44.917 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.winamy.provider.interfaces.IProviderApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-21 17:43:45.357 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 11001 (http)
+2020-08-21 17:43:45.375 [main] INFO  StandardService - Starting service [Tomcat]
+2020-08-21 17:43:45.376 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-21 17:43:45.378 [main] INFO  AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-21 17:43:45.379 [main] INFO  AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-21 17:43:45.379 [main] INFO  AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-21 17:43:45.388 [main] INFO  AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-21 17:43:45.587 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2020-08-21 17:43:45.590 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1875 ms
+2020-08-21 17:43:46.125 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-21 17:43:46.133 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-21 17:43:46.279 [main] INFO  ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-21 17:43:46.692 [main] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-21 17:43:46.700 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-21 17:43:46.702 [main] INFO  naming - initializer namespace from System Environment :null
+2020-08-21 17:43:46.703 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-21 17:43:47.453 [main] INFO  EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-08-21 17:43:47.577 [main] INFO  TomcatWebServer - Tomcat started on port(s): 11001 (http) with context path ''
+2020-08-21 17:43:47.582 [main] INFO  naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.1.221.157","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":11001,"scheduled":false,"serviceName":"DEFAULT_GROUP@@cloud-client","stopped":false,"weight":1.0} to beat map.
+2020-08-21 17:43:47.685 [main] INFO  naming - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@cloud-client with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.1.221.157","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":11001,"weight":1.0}
+2020-08-21 17:43:47.697 [main] INFO  NacosServiceRegistry - nacos registry, DEFAULT_GROUP cloud-client 10.1.221.157:11001 register finished
+2020-08-21 17:43:47.934 [main] INFO  ClientApplication - Started ClientApplication in 6.279 seconds (JVM running for 7.381)
+2020-08-21 17:43:47.946 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-client-dev.yml+DEFAULT_GROUP
+2020-08-21 17:43:47.948 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-client-dev.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-21 17:43:47.949 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-client.yml+DEFAULT_GROUP
+2020-08-21 17:43:47.950 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-client.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-21 17:43:47.951 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-client+DEFAULT_GROUP
+2020-08-21 17:43:47.953 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-client, group=DEFAULT_GROUP, cnt=1
+2020-08-21 17:44:11.964 [http-nio-11001-exec-2] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-21 17:44:11.965 [http-nio-11001-exec-2] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-21 17:44:11.975 [http-nio-11001-exec-2] INFO  DispatcherServlet - Completed initialization in 10 ms
+2020-08-21 17:47:33.860 [http-nio-11001-exec-9] INFO  ClientController - 调用prodiver开始
+2020-08-21 17:47:35.360 [http-nio-11001-exec-9] INFO  ChainedDynamicProperty - Flipping property: cloud-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-08-21 17:47:35.381 [http-nio-11001-exec-9] INFO  BaseLoadBalancer - Client: cloud-provider instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=cloud-provider,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-08-21 17:47:35.392 [http-nio-11001-exec-9] INFO  DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2020-08-21 17:47:35.417 [http-nio-11001-exec-9] INFO  naming - new ips(1) service: DEFAULT_GROUP@@cloud-provider -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.1.221.157#8763#DEFAULT#DEFAULT_GROUP@@cloud-provider","ip":"10.1.221.157","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8763,"serviceName":"DEFAULT_GROUP@@cloud-provider","weight":1.0}]
+2020-08-21 17:47:35.422 [http-nio-11001-exec-9] INFO  naming - current ips:(1) service: DEFAULT_GROUP@@cloud-provider -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.1.221.157#8763#DEFAULT#DEFAULT_GROUP@@cloud-provider","ip":"10.1.221.157","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8763,"serviceName":"DEFAULT_GROUP@@cloud-provider","weight":1.0}]
+2020-08-21 17:47:35.435 [http-nio-11001-exec-9] INFO  ChainedDynamicProperty - Flipping property: cloud-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-08-21 17:47:35.437 [http-nio-11001-exec-9] INFO  DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client cloud-provider initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=cloud-provider,current list of Servers=[10.1.221.157:8763],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:10.1.221.157:8763;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@2795513
+2020-08-21 17:47:36.398 [PollingServerListUpdater-0] INFO  ChainedDynamicProperty - Flipping property: cloud-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-08-21 17:48:27.242 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-21 17:48:27.298 [main] INFO  Limiter - limitTime:5.0
+2020-08-21 17:48:27.350 [main] INFO  JVMUtil - isMultiInstance:false
+2020-08-21 17:48:27.364 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-client-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-client.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-client,DEFAULT_GROUP'}]
+2020-08-21 17:48:27.371 [main] INFO  ClientApplication - The following profiles are active: dev
+2020-08-21 17:48:28.703 [main] INFO  GenericScope - BeanFactory id=3ee22360-666d-322a-8312-cc7faa25bc6c
+2020-08-21 17:48:28.736 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.winamy.provider.interfaces.IProviderApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-21 17:48:29.204 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 11001 (http)
+2020-08-21 17:48:29.235 [main] INFO  StandardService - Starting service [Tomcat]
+2020-08-21 17:48:29.236 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-21 17:48:29.240 [main] INFO  AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-21 17:48:29.241 [main] INFO  AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-21 17:48:29.241 [main] INFO  AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-21 17:48:29.246 [main] INFO  AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-21 17:48:29.401 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2020-08-21 17:48:29.402 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2006 ms
+2020-08-21 17:48:30.234 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-21 17:48:30.244 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-21 17:48:30.439 [main] INFO  ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-21 17:48:30.870 [main] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-21 17:48:30.879 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-21 17:48:30.880 [main] INFO  naming - initializer namespace from System Environment :null
+2020-08-21 17:48:30.881 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-21 17:48:31.722 [main] INFO  EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-08-21 17:48:32.066 [main] INFO  TomcatWebServer - Tomcat started on port(s): 11001 (http) with context path ''
+2020-08-21 17:48:32.072 [main] INFO  naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.1.221.157","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":11001,"scheduled":false,"serviceName":"DEFAULT_GROUP@@cloud-client","stopped":false,"weight":1.0} to beat map.
+2020-08-21 17:48:32.192 [main] INFO  naming - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@cloud-client with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.1.221.157","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":11001,"weight":1.0}
+2020-08-21 17:48:32.206 [main] INFO  NacosServiceRegistry - nacos registry, DEFAULT_GROUP cloud-client 10.1.221.157:11001 register finished
+2020-08-21 17:48:32.438 [main] INFO  ClientApplication - Started ClientApplication in 7.786 seconds (JVM running for 9.595)
+2020-08-21 17:48:32.448 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-client-dev.yml+DEFAULT_GROUP
+2020-08-21 17:48:32.449 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-client-dev.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-21 17:48:32.449 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-client.yml+DEFAULT_GROUP
+2020-08-21 17:48:32.449 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-client.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-21 17:48:32.450 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-client+DEFAULT_GROUP
+2020-08-21 17:48:32.450 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-client, group=DEFAULT_GROUP, cnt=1
+2020-08-21 17:49:07.659 [http-nio-11001-exec-1] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-21 17:49:07.659 [http-nio-11001-exec-1] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-21 17:49:07.670 [http-nio-11001-exec-1] INFO  DispatcherServlet - Completed initialization in 10 ms
+2020-08-21 17:49:25.812 [http-nio-11001-exec-1] INFO  ClientController - 调用prodiver开始
+2020-08-21 17:49:27.401 [http-nio-11001-exec-3] INFO  ClientController - 调用prodiver开始
+2020-08-21 17:49:28.088 [http-nio-11001-exec-1] INFO  ChainedDynamicProperty - Flipping property: cloud-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-08-21 17:49:28.112 [http-nio-11001-exec-1] INFO  BaseLoadBalancer - Client: cloud-provider instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=cloud-provider,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-08-21 17:49:28.121 [http-nio-11001-exec-1] INFO  DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2020-08-21 17:49:28.144 [http-nio-11001-exec-1] INFO  naming - new ips(1) service: DEFAULT_GROUP@@cloud-provider -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.1.221.157#8763#DEFAULT#DEFAULT_GROUP@@cloud-provider","ip":"10.1.221.157","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8763,"serviceName":"DEFAULT_GROUP@@cloud-provider","weight":1.0}]
+2020-08-21 17:49:28.149 [http-nio-11001-exec-1] INFO  naming - current ips:(1) service: DEFAULT_GROUP@@cloud-provider -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.1.221.157#8763#DEFAULT#DEFAULT_GROUP@@cloud-provider","ip":"10.1.221.157","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8763,"serviceName":"DEFAULT_GROUP@@cloud-provider","weight":1.0}]
+2020-08-21 17:49:28.165 [http-nio-11001-exec-1] INFO  ChainedDynamicProperty - Flipping property: cloud-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-08-21 17:49:28.168 [http-nio-11001-exec-1] INFO  DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client cloud-provider initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=cloud-provider,current list of Servers=[10.1.221.157:8763],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:10.1.221.157:8763;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@590fac8e
+2020-08-21 17:49:29.126 [PollingServerListUpdater-0] INFO  ChainedDynamicProperty - Flipping property: cloud-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-08-21 17:49:32.237 [http-nio-11001-exec-2] INFO  ClientController - 调用prodiver开始
+2020-08-21 17:50:31.675 [http-nio-11001-exec-4] INFO  ClientController - 调用prodiver开始

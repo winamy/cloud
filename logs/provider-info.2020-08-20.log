@@ -1,0 +1,469 @@
+2020-08-20 17:24:50.177 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-20 17:24:50.216 [main] INFO  Limiter - limitTime:5.0
+2020-08-20 17:24:50.271 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 17:24:50.276 [main] INFO  NacosApplication - No active profile set, falling back to default profiles: default
+2020-08-20 17:24:51.725 [main] INFO  GenericScope - BeanFactory id=ad258435-0439-38fe-8224-90725eb2481d
+2020-08-20 17:24:52.172 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8762 (http)
+2020-08-20 17:24:52.222 [main] INFO  StandardService - Starting service [Tomcat]
+2020-08-20 17:24:52.223 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-20 17:24:52.225 [main] INFO  AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-20 17:24:52.226 [main] INFO  AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-20 17:24:52.226 [main] INFO  AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-20 17:24:52.251 [main] INFO  AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-20 17:24:52.378 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2020-08-20 17:24:52.379 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2086 ms
+2020-08-20 17:24:52.645 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 17:24:52.652 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 17:24:52.986 [main] INFO  ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:24:53.341 [main] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-20 17:24:53.347 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 17:24:53.348 [main] INFO  naming - initializer namespace from System Environment :null
+2020-08-20 17:24:53.349 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 17:24:54.152 [main] INFO  EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-08-20 17:24:54.266 [main] INFO  ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:24:54.274 [main] INFO  StandardService - Stopping service [Tomcat]
+2020-08-20 17:24:54.293 [main] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-20 17:31:27.330 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-20 17:31:27.360 [main] INFO  Limiter - limitTime:5.0
+2020-08-20 17:31:27.397 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 17:31:27.402 [main] INFO  NacosApplication - The following profiles are active: dev
+2020-08-20 17:31:28.308 [main] INFO  GenericScope - BeanFactory id=ad258435-0439-38fe-8224-90725eb2481d
+2020-08-20 17:31:28.594 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8762 (http)
+2020-08-20 17:31:28.605 [main] INFO  StandardService - Starting service [Tomcat]
+2020-08-20 17:31:28.605 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-20 17:31:28.607 [main] INFO  AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-20 17:31:28.608 [main] INFO  AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-20 17:31:28.608 [main] INFO  AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-20 17:31:28.612 [main] INFO  AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-20 17:31:28.736 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2020-08-20 17:31:28.737 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1316 ms
+2020-08-20 17:31:28.957 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 17:31:28.963 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 17:31:29.196 [main] INFO  ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:31:29.560 [main] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-20 17:31:29.566 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 17:31:29.567 [main] INFO  naming - initializer namespace from System Environment :null
+2020-08-20 17:31:29.569 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 17:31:30.310 [main] INFO  EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-08-20 17:31:30.390 [main] INFO  ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:31:30.394 [main] INFO  StandardService - Stopping service [Tomcat]
+2020-08-20 17:31:30.410 [main] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-20 17:32:20.249 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-20 17:32:20.278 [main] INFO  Limiter - limitTime:5.0
+2020-08-20 17:32:20.323 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 17:32:20.329 [main] INFO  NacosApplication - The following profiles are active: dev
+2020-08-20 17:32:21.201 [main] INFO  GenericScope - BeanFactory id=ad258435-0439-38fe-8224-90725eb2481d
+2020-08-20 17:32:21.500 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8762 (http)
+2020-08-20 17:32:21.511 [main] INFO  StandardService - Starting service [Tomcat]
+2020-08-20 17:32:21.511 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-20 17:32:21.513 [main] INFO  AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-20 17:32:21.513 [main] INFO  AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-20 17:32:21.513 [main] INFO  AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-20 17:32:21.517 [main] INFO  AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-20 17:32:21.628 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2020-08-20 17:32:21.628 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1280 ms
+2020-08-20 17:32:21.849 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 17:32:21.854 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 17:32:22.111 [main] INFO  ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:32:22.457 [main] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-20 17:32:22.463 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 17:32:22.464 [main] INFO  naming - initializer namespace from System Environment :null
+2020-08-20 17:32:22.464 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 17:32:23.221 [main] INFO  EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-08-20 17:32:23.346 [main] INFO  TomcatWebServer - Tomcat started on port(s): 8762 (http) with context path ''
+2020-08-20 17:32:23.350 [main] INFO  naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.1.221.157","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8762,"scheduled":false,"serviceName":"DEFAULT_GROUP@@cloud-provider","stopped":false,"weight":1.0} to beat map.
+2020-08-20 17:32:23.507 [main] INFO  naming - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@cloud-provider with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.1.221.157","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8762,"weight":1.0}
+2020-08-20 17:32:23.525 [main] INFO  NacosServiceRegistry - nacos registry, DEFAULT_GROUP cloud-provider 10.1.221.157:8762 register finished
+2020-08-20 17:32:23.751 [main] INFO  NacosApplication - Started NacosApplication in 5.307 seconds (JVM running for 6.188)
+2020-08-20 17:32:23.758 [main] INFO  ClientWorker - [fixed-localhost_8848] [subscribe] cloud-provider-dev.properties+DEFAULT_GROUP
+2020-08-20 17:32:23.759 [main] INFO  CacheData - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=cloud-provider-dev.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-20 17:32:23.760 [main] INFO  ClientWorker - [fixed-localhost_8848] [subscribe] cloud-provider+DEFAULT_GROUP
+2020-08-20 17:32:23.760 [main] INFO  CacheData - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=cloud-provider, group=DEFAULT_GROUP, cnt=1
+2020-08-20 17:32:23.760 [main] INFO  ClientWorker - [fixed-localhost_8848] [subscribe] cloud-provider.properties+DEFAULT_GROUP
+2020-08-20 17:32:23.761 [main] INFO  CacheData - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=cloud-provider.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-20 17:34:50.215 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-20 17:34:50.251 [main] INFO  Limiter - limitTime:5.0
+2020-08-20 17:34:50.295 [main] INFO  JVMUtil - isMultiInstance:false
+2020-08-20 17:34:50.331 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 17:35:56.305 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-20 17:35:56.333 [main] INFO  Limiter - limitTime:5.0
+2020-08-20 17:35:56.373 [main] INFO  JVMUtil - isMultiInstance:false
+2020-08-20 17:35:56.382 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 17:36:20.870 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-20 17:36:20.900 [main] INFO  Limiter - limitTime:5.0
+2020-08-20 17:36:20.958 [main] INFO  JVMUtil - isMultiInstance:false
+2020-08-20 17:36:20.968 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 17:37:05.016 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-20 17:37:05.045 [main] INFO  Limiter - limitTime:5.0
+2020-08-20 17:37:05.084 [main] INFO  JVMUtil - isMultiInstance:false
+2020-08-20 17:37:05.094 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 17:37:05.099 [main] INFO  NacosApplication - The following profiles are active: dev
+2020-08-20 17:37:05.969 [main] INFO  GenericScope - BeanFactory id=ad258435-0439-38fe-8224-90725eb2481d
+2020-08-20 17:37:06.263 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8762 (http)
+2020-08-20 17:37:06.274 [main] INFO  StandardService - Starting service [Tomcat]
+2020-08-20 17:37:06.275 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-20 17:37:06.277 [main] INFO  AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-20 17:37:06.278 [main] INFO  AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-20 17:37:06.279 [main] INFO  AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-20 17:37:06.283 [main] INFO  AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-20 17:37:06.400 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2020-08-20 17:37:06.401 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1285 ms
+2020-08-20 17:37:06.617 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 17:37:06.624 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 17:37:06.881 [main] INFO  ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:37:07.229 [main] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-20 17:37:07.235 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 17:37:07.237 [main] INFO  naming - initializer namespace from System Environment :null
+2020-08-20 17:37:07.238 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 17:37:08.002 [main] INFO  EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-08-20 17:37:08.113 [main] INFO  TomcatWebServer - Tomcat started on port(s): 8762 (http) with context path ''
+2020-08-20 17:37:08.116 [main] INFO  naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.1.221.157","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8762,"scheduled":false,"serviceName":"DEFAULT_GROUP@@cloud-provider","stopped":false,"weight":1.0} to beat map.
+2020-08-20 17:37:08.203 [main] INFO  naming - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@cloud-provider with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.1.221.157","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8762,"weight":1.0}
+2020-08-20 17:37:08.226 [main] INFO  NacosServiceRegistry - nacos registry, DEFAULT_GROUP cloud-provider 10.1.221.157:8762 register finished
+2020-08-20 17:37:08.459 [main] INFO  NacosApplication - Started NacosApplication in 5.214 seconds (JVM running for 6.242)
+2020-08-20 17:37:08.471 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider-dev.yml+DEFAULT_GROUP
+2020-08-20 17:37:08.473 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-20 17:37:08.474 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider.yml+DEFAULT_GROUP
+2020-08-20 17:37:08.474 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-20 17:37:08.475 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider+DEFAULT_GROUP
+2020-08-20 17:37:08.475 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider, group=DEFAULT_GROUP, cnt=1
+2020-08-20 17:38:37.438 [http-nio-8762-exec-2] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 17:38:37.438 [http-nio-8762-exec-2] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-20 17:38:37.444 [http-nio-8762-exec-2] INFO  DispatcherServlet - Completed initialization in 6 ms
+2020-08-20 17:39:15.865 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  ClientWorker - [fixed-127.0.0.1_8848] [polling-resp] config changed. dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP
+2020-08-20 17:39:15.884 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  ClientWorker - [fixed-127.0.0.1_8848] [data-received] dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, tenant=null, md5=874cba298d15a839a3bdd01e601e271d, content=test:
+    say: winamy
+server:
+  port: 8762
+2020-08-20 17:39:15.885 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  CacheData - [fixed-127.0.0.1_8848] [notify-context] dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, md5=874cba298d15a839a3bdd01e601e271d
+2020-08-20 17:39:16.431 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 17:39:16.433 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  SpringApplication - The following profiles are active: dev
+2020-08-20 17:39:16.443 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  SpringApplication - Started application in 0.553 seconds (JVM running for 134.226)
+2020-08-20 17:39:16.520 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  RefreshEventListener - Refresh keys changed: []
+2020-08-20 17:39:16.521 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  CacheData - [fixed-127.0.0.1_8848] [notify-ok] dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, md5=874cba298d15a839a3bdd01e601e271d, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@3381b3b8 
+2020-08-20 17:39:16.521 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  CacheData - [fixed-127.0.0.1_8848] [notify-listener] time cost=636ms in ClientWorker, dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, md5=874cba298d15a839a3bdd01e601e271d, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@3381b3b8 
+2020-08-20 17:39:46.570 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-20 17:39:46.605 [main] INFO  Limiter - limitTime:5.0
+2020-08-20 17:39:46.708 [main] INFO  JVMUtil - isMultiInstance:false
+2020-08-20 17:39:46.716 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 17:39:46.721 [main] INFO  NacosApplication - The following profiles are active: dev
+2020-08-20 17:39:47.956 [main] INFO  GenericScope - BeanFactory id=ad258435-0439-38fe-8224-90725eb2481d
+2020-08-20 17:39:48.548 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8762 (http)
+2020-08-20 17:39:48.660 [main] INFO  StandardService - Starting service [Tomcat]
+2020-08-20 17:39:48.660 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-20 17:39:48.662 [main] INFO  AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-20 17:39:48.664 [main] INFO  AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-20 17:39:48.665 [main] INFO  AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-20 17:39:48.669 [main] INFO  AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-20 17:39:48.805 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2020-08-20 17:39:48.805 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2069 ms
+2020-08-20 17:39:49.012 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 17:39:49.018 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 17:39:49.262 [main] INFO  ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:39:49.590 [main] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-20 17:39:49.596 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 17:39:49.597 [main] INFO  naming - initializer namespace from System Environment :null
+2020-08-20 17:39:49.598 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 17:39:50.336 [main] INFO  EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-08-20 17:39:50.455 [main] INFO  TomcatWebServer - Tomcat started on port(s): 8762 (http) with context path ''
+2020-08-20 17:39:50.462 [main] INFO  naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.1.221.157","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8762,"scheduled":false,"serviceName":"DEFAULT_GROUP@@cloud-provider","stopped":false,"weight":1.0} to beat map.
+2020-08-20 17:39:50.549 [main] INFO  naming - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@cloud-provider with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.1.221.157","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8762,"weight":1.0}
+2020-08-20 17:39:50.561 [main] INFO  NacosServiceRegistry - nacos registry, DEFAULT_GROUP cloud-provider 10.1.221.157:8762 register finished
+2020-08-20 17:39:50.790 [main] INFO  NacosApplication - Started NacosApplication in 7.156 seconds (JVM running for 7.927)
+2020-08-20 17:39:50.798 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider-dev.yml+DEFAULT_GROUP
+2020-08-20 17:39:50.799 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-20 17:39:50.799 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider.yml+DEFAULT_GROUP
+2020-08-20 17:39:50.799 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-20 17:39:50.800 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider+DEFAULT_GROUP
+2020-08-20 17:39:50.800 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider, group=DEFAULT_GROUP, cnt=1
+2020-08-20 17:39:57.935 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  ClientWorker - [fixed-127.0.0.1_8848] [polling-resp] config changed. dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP
+2020-08-20 17:39:57.944 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  ClientWorker - [fixed-127.0.0.1_8848] [data-received] dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, tenant=null, md5=ee5d30a46fa7dc9257a1575ad8d04e94, content=test:
+    say: winamy
+server:
+  port: 8763
+2020-08-20 17:39:57.947 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  CacheData - [fixed-127.0.0.1_8848] [notify-context] dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, md5=ee5d30a46fa7dc9257a1575ad8d04e94
+2020-08-20 17:39:58.569 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 17:39:58.570 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  SpringApplication - The following profiles are active: dev
+2020-08-20 17:39:58.580 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  SpringApplication - Started application in 0.63 seconds (JVM running for 15.717)
+2020-08-20 17:39:58.660 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  RefreshEventListener - Refresh keys changed: [server.port]
+2020-08-20 17:39:58.660 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  CacheData - [fixed-127.0.0.1_8848] [notify-ok] dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, md5=ee5d30a46fa7dc9257a1575ad8d04e94, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@1d724547 
+2020-08-20 17:39:58.660 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  CacheData - [fixed-127.0.0.1_8848] [notify-listener] time cost=713ms in ClientWorker, dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, md5=ee5d30a46fa7dc9257a1575ad8d04e94, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@1d724547 
+2020-08-20 17:40:05.684 [http-nio-8762-exec-1] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 17:40:05.685 [http-nio-8762-exec-1] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-20 17:40:05.692 [http-nio-8762-exec-1] INFO  DispatcherServlet - Completed initialization in 7 ms
+2020-08-20 17:40:19.985 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-20 17:40:20.013 [main] INFO  Limiter - limitTime:5.0
+2020-08-20 17:40:20.053 [main] INFO  JVMUtil - isMultiInstance:false
+2020-08-20 17:40:20.064 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 17:40:20.069 [main] INFO  NacosApplication - The following profiles are active: dev
+2020-08-20 17:40:20.958 [main] INFO  GenericScope - BeanFactory id=ad258435-0439-38fe-8224-90725eb2481d
+2020-08-20 17:40:21.292 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8763 (http)
+2020-08-20 17:40:21.303 [main] INFO  StandardService - Starting service [Tomcat]
+2020-08-20 17:40:21.304 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-20 17:40:21.307 [main] INFO  AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-20 17:40:21.307 [main] INFO  AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-20 17:40:21.308 [main] INFO  AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-20 17:40:21.311 [main] INFO  AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-20 17:40:21.442 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2020-08-20 17:40:21.446 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1361 ms
+2020-08-20 17:40:21.704 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 17:40:21.710 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 17:40:22.018 [main] INFO  ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:40:22.448 [main] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-20 17:40:22.455 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 17:40:22.456 [main] INFO  naming - initializer namespace from System Environment :null
+2020-08-20 17:40:22.458 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 17:40:23.221 [main] INFO  EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-08-20 17:40:23.330 [main] INFO  TomcatWebServer - Tomcat started on port(s): 8763 (http) with context path ''
+2020-08-20 17:40:23.334 [main] INFO  naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.1.221.157","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8763,"scheduled":false,"serviceName":"DEFAULT_GROUP@@cloud-provider","stopped":false,"weight":1.0} to beat map.
+2020-08-20 17:40:23.417 [main] INFO  naming - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@cloud-provider with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.1.221.157","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8763,"weight":1.0}
+2020-08-20 17:40:23.432 [main] INFO  NacosServiceRegistry - nacos registry, DEFAULT_GROUP cloud-provider 10.1.221.157:8763 register finished
+2020-08-20 17:40:23.675 [main] INFO  NacosApplication - Started NacosApplication in 5.403 seconds (JVM running for 6.627)
+2020-08-20 17:40:23.685 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider-dev.yml+DEFAULT_GROUP
+2020-08-20 17:40:23.686 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-20 17:40:23.687 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider.yml+DEFAULT_GROUP
+2020-08-20 17:40:23.687 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-20 17:40:23.688 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider+DEFAULT_GROUP
+2020-08-20 17:40:23.688 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider, group=DEFAULT_GROUP, cnt=1
+2020-08-20 17:40:28.625 [http-nio-8763-exec-1] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 17:40:28.626 [http-nio-8763-exec-1] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-20 17:40:28.634 [http-nio-8763-exec-1] INFO  DispatcherServlet - Completed initialization in 8 ms
+2020-08-20 17:40:51.157 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  ClientWorker - [fixed-127.0.0.1_8848] [polling-resp] config changed. dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP
+2020-08-20 17:40:51.206 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  ClientWorker - [fixed-127.0.0.1_8848] [data-received] dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, tenant=null, md5=effc97d713e9dc3d63bace04b020752e, content=test:
+    say: winamy1
+server:
+  port: 8763
+2020-08-20 17:40:51.207 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  CacheData - [fixed-127.0.0.1_8848] [notify-context] dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, md5=effc97d713e9dc3d63bace04b020752e
+2020-08-20 17:40:51.855 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 17:40:51.858 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  SpringApplication - The following profiles are active: dev
+2020-08-20 17:40:51.887 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  SpringApplication - Started application in 0.673 seconds (JVM running for 34.84)
+2020-08-20 17:40:51.966 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  RefreshEventListener - Refresh keys changed: [test.say]
+2020-08-20 17:40:51.967 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  CacheData - [fixed-127.0.0.1_8848] [notify-ok] dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, md5=effc97d713e9dc3d63bace04b020752e, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@56dc9bb0 
+2020-08-20 17:40:51.967 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  CacheData - [fixed-127.0.0.1_8848] [notify-listener] time cost=760ms in ClientWorker, dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, md5=effc97d713e9dc3d63bace04b020752e, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@56dc9bb0 
+2020-08-20 17:41:32.747 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  ClientWorker - [fixed-127.0.0.1_8848] [polling-resp] config changed. dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP
+2020-08-20 17:41:32.764 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  ClientWorker - [fixed-127.0.0.1_8848] [data-received] dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, tenant=null, md5=6ab9c8db0971ee48fed66e5f97313239, content=test:
+    say: winamy1
+server:
+  port: 8763
+management:
+  endpoints:
+    web:
+      exposure:...
+2020-08-20 17:41:32.764 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  CacheData - [fixed-127.0.0.1_8848] [notify-context] dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, md5=6ab9c8db0971ee48fed66e5f97313239
+2020-08-20 17:41:33.337 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 17:41:33.340 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  SpringApplication - The following profiles are active: dev
+2020-08-20 17:41:33.349 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  SpringApplication - Started application in 0.571 seconds (JVM running for 76.301)
+2020-08-20 17:41:33.414 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  RefreshEventListener - Refresh keys changed: []
+2020-08-20 17:41:33.414 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  CacheData - [fixed-127.0.0.1_8848] [notify-ok] dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, md5=6ab9c8db0971ee48fed66e5f97313239, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@56dc9bb0 
+2020-08-20 17:41:33.415 [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848] INFO  CacheData - [fixed-127.0.0.1_8848] [notify-listener] time cost=651ms in ClientWorker, dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, md5=6ab9c8db0971ee48fed66e5f97313239, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@56dc9bb0 
+2020-08-20 17:42:49.633 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-20 17:42:49.746 [main] INFO  Limiter - limitTime:5.0
+2020-08-20 17:42:49.800 [main] INFO  JVMUtil - isMultiInstance:false
+2020-08-20 17:42:49.813 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 17:42:49.817 [main] INFO  NacosApplication - The following profiles are active: dev
+2020-08-20 17:42:51.035 [main] INFO  GenericScope - BeanFactory id=ad258435-0439-38fe-8224-90725eb2481d
+2020-08-20 17:42:51.410 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8763 (http)
+2020-08-20 17:42:51.421 [main] INFO  StandardService - Starting service [Tomcat]
+2020-08-20 17:42:51.421 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-20 17:42:51.423 [main] INFO  AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-20 17:42:51.424 [main] INFO  AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-20 17:42:51.424 [main] INFO  AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-20 17:42:51.427 [main] INFO  AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-20 17:42:51.540 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2020-08-20 17:42:51.540 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1693 ms
+2020-08-20 17:42:51.787 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 17:42:51.793 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 17:42:52.081 [main] INFO  ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 17:42:52.439 [main] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-20 17:42:52.446 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 17:42:52.446 [main] INFO  naming - initializer namespace from System Environment :null
+2020-08-20 17:42:52.447 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 17:42:53.215 [main] INFO  EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-08-20 17:42:53.334 [main] INFO  TomcatWebServer - Tomcat started on port(s): 8763 (http) with context path ''
+2020-08-20 17:42:53.356 [main] INFO  naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.1.221.157","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8763,"scheduled":false,"serviceName":"DEFAULT_GROUP@@cloud-provider","stopped":false,"weight":1.0} to beat map.
+2020-08-20 17:42:53.445 [main] INFO  naming - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@cloud-provider with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.1.221.157","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8763,"weight":1.0}
+2020-08-20 17:42:53.458 [main] INFO  NacosServiceRegistry - nacos registry, DEFAULT_GROUP cloud-provider 10.1.221.157:8763 register finished
+2020-08-20 17:42:53.685 [main] INFO  NacosApplication - Started NacosApplication in 5.992 seconds (JVM running for 6.94)
+2020-08-20 17:42:53.693 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider-dev.yml+DEFAULT_GROUP
+2020-08-20 17:42:53.694 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-20 17:42:53.695 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider.yml+DEFAULT_GROUP
+2020-08-20 17:42:53.695 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-20 17:42:53.695 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider+DEFAULT_GROUP
+2020-08-20 17:42:53.696 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider, group=DEFAULT_GROUP, cnt=1
+2020-08-20 18:03:02.119 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-20 18:03:02.154 [main] INFO  Limiter - limitTime:5.0
+2020-08-20 18:03:02.193 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 18:03:02.199 [main] INFO  NacosApplication - No active profile set, falling back to default profiles: default
+2020-08-20 18:03:03.388 [main] INFO  GenericScope - BeanFactory id=ad258435-0439-38fe-8224-90725eb2481d
+2020-08-20 18:03:03.767 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-08-20 18:03:03.781 [main] INFO  StandardService - Starting service [Tomcat]
+2020-08-20 18:03:03.782 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-20 18:03:03.784 [main] INFO  AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-20 18:03:03.784 [main] INFO  AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-20 18:03:03.785 [main] INFO  AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-20 18:03:03.790 [main] INFO  AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-20 18:03:03.930 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2020-08-20 18:03:03.930 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1712 ms
+2020-08-20 18:03:04.222 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 18:03:04.230 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 18:03:04.559 [main] INFO  ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 18:03:04.962 [main] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-20 18:03:04.968 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 18:03:04.969 [main] INFO  naming - initializer namespace from System Environment :null
+2020-08-20 18:03:04.970 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 18:03:05.869 [main] INFO  EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-20 18:03:05.977 [main] INFO  ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 18:03:05.982 [main] INFO  StandardService - Stopping service [Tomcat]
+2020-08-20 18:03:06.018 [main] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-20 18:04:33.090 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-20 18:04:33.129 [main] INFO  Limiter - limitTime:5.0
+2020-08-20 18:04:33.176 [main] INFO  JVMUtil - isMultiInstance:false
+2020-08-20 18:04:33.186 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 18:04:33.193 [main] INFO  NacosApplication - The following profiles are active: dev
+2020-08-20 18:04:34.304 [main] INFO  GenericScope - BeanFactory id=ad258435-0439-38fe-8224-90725eb2481d
+2020-08-20 18:04:34.664 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8763 (http)
+2020-08-20 18:04:34.679 [main] INFO  StandardService - Starting service [Tomcat]
+2020-08-20 18:04:34.679 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-20 18:04:34.681 [main] INFO  AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-20 18:04:34.682 [main] INFO  AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-20 18:04:34.682 [main] INFO  AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-20 18:04:34.688 [main] INFO  AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-20 18:04:34.827 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2020-08-20 18:04:34.827 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1615 ms
+2020-08-20 18:04:35.114 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 18:04:35.120 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 18:04:35.426 [main] INFO  ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 18:04:35.829 [main] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-20 18:04:35.835 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 18:04:35.837 [main] INFO  naming - initializer namespace from System Environment :null
+2020-08-20 18:04:35.841 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 18:04:36.693 [main] INFO  EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-08-20 18:04:36.822 [main] INFO  TomcatWebServer - Tomcat started on port(s): 8763 (http) with context path ''
+2020-08-20 18:04:36.827 [main] INFO  naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.1.221.157","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8763,"scheduled":false,"serviceName":"DEFAULT_GROUP@@cloud-provider","stopped":false,"weight":1.0} to beat map.
+2020-08-20 18:04:36.929 [main] INFO  naming - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@cloud-provider with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.1.221.157","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8763,"weight":1.0}
+2020-08-20 18:04:36.948 [main] INFO  NacosServiceRegistry - nacos registry, DEFAULT_GROUP cloud-provider 10.1.221.157:8763 register finished
+2020-08-20 18:04:37.194 [main] INFO  NacosApplication - Started NacosApplication in 6.089 seconds (JVM running for 8.92)
+2020-08-20 18:04:37.248 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider-dev.yml+DEFAULT_GROUP
+2020-08-20 18:04:37.252 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-20 18:04:37.254 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider.yml+DEFAULT_GROUP
+2020-08-20 18:04:37.255 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-20 18:04:37.257 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider+DEFAULT_GROUP
+2020-08-20 18:04:37.258 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider, group=DEFAULT_GROUP, cnt=1
+2020-08-20 18:10:46.124 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-20 18:10:46.171 [main] INFO  Limiter - limitTime:5.0
+2020-08-20 18:10:46.218 [main] INFO  JVMUtil - isMultiInstance:false
+2020-08-20 18:10:46.228 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 18:10:46.233 [main] INFO  NacosApplication - The following profiles are active: dev
+2020-08-20 18:10:47.149 [main] INFO  GenericScope - BeanFactory id=ad258435-0439-38fe-8224-90725eb2481d
+2020-08-20 18:10:47.462 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8763 (http)
+2020-08-20 18:10:47.474 [main] INFO  StandardService - Starting service [Tomcat]
+2020-08-20 18:10:47.475 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-20 18:10:47.477 [main] INFO  AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-20 18:10:47.477 [main] INFO  AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-20 18:10:47.478 [main] INFO  AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-20 18:10:47.483 [main] INFO  AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-20 18:10:47.609 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2020-08-20 18:10:47.609 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1357 ms
+2020-08-20 18:10:47.836 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 18:10:47.843 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 18:10:48.124 [main] INFO  ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 18:10:48.469 [main] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-20 18:10:48.477 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 18:10:48.478 [main] INFO  naming - initializer namespace from System Environment :null
+2020-08-20 18:10:48.479 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 18:10:49.235 [main] INFO  EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-08-20 18:10:49.350 [main] INFO  TomcatWebServer - Tomcat started on port(s): 8763 (http) with context path ''
+2020-08-20 18:10:49.353 [main] INFO  naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.1.221.157","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8763,"scheduled":false,"serviceName":"DEFAULT_GROUP@@cloud-provider","stopped":false,"weight":1.0} to beat map.
+2020-08-20 18:10:49.460 [main] INFO  naming - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@cloud-provider with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.1.221.157","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8763,"weight":1.0}
+2020-08-20 18:10:49.471 [main] INFO  NacosServiceRegistry - nacos registry, DEFAULT_GROUP cloud-provider 10.1.221.157:8763 register finished
+2020-08-20 18:10:49.736 [main] INFO  NacosApplication - Started NacosApplication in 5.157 seconds (JVM running for 6.009)
+2020-08-20 18:10:49.746 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider-dev.yml+DEFAULT_GROUP
+2020-08-20 18:10:49.747 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-20 18:10:49.748 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider.yml+DEFAULT_GROUP
+2020-08-20 18:10:49.748 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-20 18:10:49.749 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider+DEFAULT_GROUP
+2020-08-20 18:10:49.749 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider, group=DEFAULT_GROUP, cnt=1
+2020-08-20 18:15:24.940 [http-nio-8763-exec-1] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 18:15:24.940 [http-nio-8763-exec-1] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-20 18:15:24.948 [http-nio-8763-exec-1] INFO  DispatcherServlet - Completed initialization in 8 ms
+2020-08-20 18:25:07.276 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-20 18:25:07.326 [main] INFO  Limiter - limitTime:5.0
+2020-08-20 18:25:07.368 [main] INFO  JVMUtil - isMultiInstance:false
+2020-08-20 18:25:07.379 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 18:25:07.386 [main] INFO  NacosApplication - The following profiles are active: dev
+2020-08-20 18:25:08.319 [main] INFO  GenericScope - BeanFactory id=ad258435-0439-38fe-8224-90725eb2481d
+2020-08-20 18:25:08.622 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8763 (http)
+2020-08-20 18:25:08.634 [main] INFO  StandardService - Starting service [Tomcat]
+2020-08-20 18:25:08.634 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-20 18:25:08.640 [main] INFO  AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-20 18:25:08.641 [main] INFO  AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-20 18:25:08.642 [main] INFO  AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-20 18:25:08.646 [main] INFO  AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-20 18:25:08.773 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2020-08-20 18:25:08.773 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1372 ms
+2020-08-20 18:25:09.017 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 18:25:09.024 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 18:25:09.248 [main] INFO  ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 18:25:09.609 [main] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-20 18:25:09.615 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 18:25:09.617 [main] INFO  naming - initializer namespace from System Environment :null
+2020-08-20 18:25:09.618 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 18:25:10.428 [main] INFO  EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-08-20 18:25:10.546 [main] INFO  TomcatWebServer - Tomcat started on port(s): 8763 (http) with context path ''
+2020-08-20 18:25:10.550 [main] INFO  naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.1.221.157","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8763,"scheduled":false,"serviceName":"DEFAULT_GROUP@@cloud-provider","stopped":false,"weight":1.0} to beat map.
+2020-08-20 18:25:10.648 [main] INFO  naming - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@cloud-provider with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.1.221.157","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8763,"weight":1.0}
+2020-08-20 18:25:10.665 [main] INFO  NacosServiceRegistry - nacos registry, DEFAULT_GROUP cloud-provider 10.1.221.157:8763 register finished
+2020-08-20 18:25:10.900 [main] INFO  NacosApplication - Started NacosApplication in 5.473 seconds (JVM running for 6.415)
+2020-08-20 18:25:10.911 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider-dev.yml+DEFAULT_GROUP
+2020-08-20 18:25:10.912 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-20 18:25:10.913 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider.yml+DEFAULT_GROUP
+2020-08-20 18:25:10.914 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-20 18:25:10.915 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider+DEFAULT_GROUP
+2020-08-20 18:25:10.915 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider, group=DEFAULT_GROUP, cnt=1
+2020-08-20 18:31:29.065 [http-nio-8763-exec-1] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 18:31:29.066 [http-nio-8763-exec-1] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-20 18:31:29.073 [http-nio-8763-exec-1] INFO  DispatcherServlet - Completed initialization in 7 ms
+2020-08-20 18:32:05.991 [main] INFO  LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\winamy\nacos\config
+2020-08-20 18:32:06.021 [main] INFO  Limiter - limitTime:5.0
+2020-08-20 18:32:06.061 [main] INFO  JVMUtil - isMultiInstance:false
+2020-08-20 18:32:06.072 [main] INFO  PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-cloud-provider-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-cloud-provider,DEFAULT_GROUP'}]
+2020-08-20 18:32:06.077 [main] INFO  NacosApplication - The following profiles are active: dev
+2020-08-20 18:32:07.013 [main] INFO  GenericScope - BeanFactory id=ed26de3e-e5a1-3fac-b674-0dafb97f49c1
+2020-08-20 18:32:07.030 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.winamy.provider.interfaces.IProviderApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-20 18:32:07.353 [main] INFO  TomcatWebServer - Tomcat initialized with port(s): 8763 (http)
+2020-08-20 18:32:07.365 [main] INFO  StandardService - Starting service [Tomcat]
+2020-08-20 18:32:07.365 [main] INFO  StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-20 18:32:07.366 [main] INFO  AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-20 18:32:07.367 [main] INFO  AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-20 18:32:07.367 [main] INFO  AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-20 18:32:07.371 [main] INFO  AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-20 18:32:07.495 [main] INFO  [/] - Initializing Spring embedded WebApplicationContext
+2020-08-20 18:32:07.496 [main] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1403 ms
+2020-08-20 18:32:07.775 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 18:32:07.794 [main] INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-20 18:32:08.003 [main] INFO  ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 18:32:08.361 [main] INFO  ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-20 18:32:08.366 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 18:32:08.368 [main] INFO  naming - initializer namespace from System Environment :null
+2020-08-20 18:32:08.369 [main] INFO  naming - initializer namespace from System Property :null
+2020-08-20 18:32:09.144 [main] INFO  EndpointLinksResolver - Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-08-20 18:32:09.261 [main] INFO  TomcatWebServer - Tomcat started on port(s): 8763 (http) with context path ''
+2020-08-20 18:32:09.265 [main] INFO  naming - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.1.221.157","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8763,"scheduled":false,"serviceName":"DEFAULT_GROUP@@cloud-provider","stopped":false,"weight":1.0} to beat map.
+2020-08-20 18:32:09.351 [main] INFO  naming - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@cloud-provider with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.1.221.157","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8763,"weight":1.0}
+2020-08-20 18:32:09.364 [main] INFO  NacosServiceRegistry - nacos registry, DEFAULT_GROUP cloud-provider 10.1.221.157:8763 register finished
+2020-08-20 18:32:09.594 [main] INFO  NacosApplication - Started NacosApplication in 5.375 seconds (JVM running for 6.426)
+2020-08-20 18:32:09.602 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider-dev.yml+DEFAULT_GROUP
+2020-08-20 18:32:09.603 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider-dev.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-20 18:32:09.603 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider.yml+DEFAULT_GROUP
+2020-08-20 18:32:09.603 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider.yml, group=DEFAULT_GROUP, cnt=1
+2020-08-20 18:32:09.604 [main] INFO  ClientWorker - [fixed-127.0.0.1_8848] [subscribe] cloud-provider+DEFAULT_GROUP
+2020-08-20 18:32:09.604 [main] INFO  CacheData - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=cloud-provider, group=DEFAULT_GROUP, cnt=1
+2020-08-20 18:32:13.760 [http-nio-8763-exec-1] INFO  [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-20 18:32:13.761 [http-nio-8763-exec-1] INFO  DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-08-20 18:32:13.767 [http-nio-8763-exec-1] INFO  DispatcherServlet - Completed initialization in 6 ms

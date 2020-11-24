@@ -1,0 +1,14 @@
+2020-08-21 17:43:43.651 [main] WARN  NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[cloud-client] & group[DEFAULT_GROUP]
+2020-08-21 17:43:43.657 [main] WARN  NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[cloud-client.yml] & group[DEFAULT_GROUP]
+2020-08-21 17:43:44.475 [main] WARN  EndpointId - Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-21 17:43:44.479 [main] WARN  EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-21 17:43:44.739 [main] WARN  EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-21 17:43:46.125 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-08-21 17:43:46.131 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-08-21 17:48:27.338 [main] WARN  NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[cloud-client] & group[DEFAULT_GROUP]
+2020-08-21 17:48:27.344 [main] WARN  NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[cloud-client.yml] & group[DEFAULT_GROUP]
+2020-08-21 17:48:28.197 [main] WARN  EndpointId - Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-21 17:48:28.201 [main] WARN  EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-21 17:48:28.519 [main] WARN  EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-21 17:48:30.232 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-08-21 17:48:30.244 [main] WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
