@@ -1,7 +1,0 @@
-2020-08-24 09:03:18.676 [http-nio-11001-exec-6] INFO  ClientController - 调用prodiver开始
-2020-08-24 09:25:21.918 [Thread-36] INFO  PollingServerListUpdater - Shutting down the Executor Pool for PollingServerListUpdater
-2020-08-24 09:25:21.922 [SpringContextShutdownHook] INFO  NacosServiceRegistry - De-registering from Nacos Server now...
-2020-08-24 09:25:21.922 [SpringContextShutdownHook] INFO  naming - [BEAT] removing beat: DEFAULT_GROUP@@cloud-client:10.1.221.157:11001 from beat map.
-2020-08-24 09:25:21.923 [SpringContextShutdownHook] INFO  naming - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@cloud-client with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"10.1.221.157","ipDeleteTimeout":30000,"metadata":{},"port":11001,"weight":1.0}
-2020-08-24 09:25:21.928 [SpringContextShutdownHook] INFO  NacosServiceRegistry - De-registration finished.
-2020-08-24 09:25:21.929 [SpringContextShutdownHook] INFO  ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

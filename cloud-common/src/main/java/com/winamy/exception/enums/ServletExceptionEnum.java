@@ -3,7 +3,7 @@ package com.winamy.exception.enums;
 import com.winamy.exception.interfaces.IExceptionEnum;
 
 /**
- * @description:
+ * @description: servlet异常
  * @author: wym
  * @date: 2020/6/12
  **/
