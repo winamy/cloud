@@ -6,6 +6,10 @@ package com.winamy.common.constants;
  * @date: 2020/8/20
  **/
 public interface CommonConstants {
+    // 开发环境配置名称
     String DEV_PROFILE_NAME = "dev";
+    // 生产环境配置名称
     String PRO_PROFILE_NAME = "pro";
+    // 统一返回结果标识
+    String RESPONSE_RESULT_FLAG = "RESPONSE_RESULT_FLAG";
 }

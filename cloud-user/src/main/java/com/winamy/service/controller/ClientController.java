@@ -1,6 +1,6 @@
-package com.winamy.client.controller;
+package com.winamy.service.controller;
 
-import com.winamy.common.models.Result;
+import com.winamy.common.models.ErrorResult;
 import com.winamy.provider.interfaces.IProviderApi;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,7 +23,7 @@ public class ClientController {
 
 
     @RequestMapping("/say")
-    public Result<String> say(){
+    public ErrorResult<String> say(){
         log.info("调用prodiver开始");
         return providerApi.sayHello();
     }

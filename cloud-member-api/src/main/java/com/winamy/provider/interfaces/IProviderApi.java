@@ -1,6 +1,6 @@
 package com.winamy.provider.interfaces;
 
-import com.winamy.common.models.Result;
+import com.winamy.common.models.ErrorResult;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -13,5 +13,5 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public interface IProviderApi {
 
     @RequestMapping("/test/sayHello")
-    Result<String> sayHello();
+    ErrorResult<String> sayHello();
 }

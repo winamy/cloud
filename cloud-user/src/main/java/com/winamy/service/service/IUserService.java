@@ -1,7 +1,7 @@
-package com.winamy.client.service;
+package com.winamy.service.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.winamy.client.model.User;
+import com.winamy.service.model.User;
 
 /**
  * @description:

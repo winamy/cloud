@@ -1,4 +1,4 @@
-package com.winamy.client.model;
+package com.winamy.service.model;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableLogic;

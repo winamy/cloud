@@ -1,6 +1,6 @@
 package com.winamy.cloud.controller;
 
-import com.winamy.common.models.Result;
+import com.winamy.common.models.ErrorResult;
 import com.winamy.common.utils.ResultUtil;
 import com.winamy.provider.interfaces.IProviderApi;
 import org.springframework.beans.factory.annotation.Value;
@@ -23,7 +23,7 @@ public class NacosController implements IProviderApi {
 
     @RequestMapping("/sayHello")
     @Override
-    public Result<String> sayHello() {
+    public ErrorResult<String> sayHello() {
         return ResultUtil.success("hello," + name +"!");
     }
 }

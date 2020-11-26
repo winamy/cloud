@@ -1,7 +1,7 @@
-package com.winamy.client.common.handler;
+package com.winamy.service.common.handler;
 
 import com.winamy.common.constants.CommonConstants;
-import com.winamy.common.models.Result;
+import com.winamy.common.models.ErrorResult;
 import com.winamy.exception.enums.BusinessExceptionEnum;
 import com.winamy.exception.enums.CommonExceptionEnum;
 import com.winamy.exception.enums.ServletExceptionEnum;
@@ -47,8 +47,8 @@ import org.springframework.web.servlet.NoHandlerFoundException;
 @Component
 @ControllerAdvice
 @ConditionalOnWebApplication
-@ConditionalOnMissingBean(UnifiedExceptionHandler.class)
-public class UnifiedExceptionHandler {
+@ConditionalOnMissingBean(GlobalExceptionHandler.class)
+public class GlobalExceptionHandler {
 
     /**
      * 当前环境
@@ -79,9 +79,9 @@ public class UnifiedExceptionHandler {
      */
     @ExceptionHandler(value = BusinessException.class)
     @ResponseBody
-    public Result handleBusinessException(BaseException e) {
+    public ErrorResult handleBusinessException(BaseException e) {
         log.error(e.getMessage(), e);
-        return new Result(e.getCode(), getMessage(e));
+        return new ErrorResult(e.getCode(), getMessage(e));
     }
 
     /**
@@ -92,10 +92,10 @@ public class UnifiedExceptionHandler {
      */
     @ExceptionHandler(value = BaseException.class)
     @ResponseBody
-    public Result handleBaseException(BaseException e) {
+    public ErrorResult handleBaseException(BaseException e) {
         log.error(e.getMessage(), e);
 
-        return new Result(e.getCode(), getMessage(e));
+        return new ErrorResult(e.getCode(), getMessage(e));
     }
 
     /**
@@ -120,7 +120,7 @@ public class UnifiedExceptionHandler {
             AsyncRequestTimeoutException.class
     })
     @ResponseBody
-    public Result handleServletException(Exception e) {
+    public ErrorResult handleServletException(Exception e) {
         log.error(e.getMessage(), e);
         int code = CommonExceptionEnum.SERVER_ERROR.getCode();
         try {
@@ -135,10 +135,10 @@ public class UnifiedExceptionHandler {
             code = CommonExceptionEnum.SERVER_ERROR.getCode();
             BaseException baseException = new BaseException(CommonExceptionEnum.SERVER_ERROR);
             String message = getMessage(baseException);
-            return new Result(code, message);
+            return new ErrorResult(code, message);
         }
 
-        return new Result(code, e.getMessage());
+        return new ErrorResult(code, e.getMessage());
     }
 
 
@@ -150,7 +150,7 @@ public class UnifiedExceptionHandler {
      */
     @ExceptionHandler(value = BindException.class)
     @ResponseBody
-    public Result handleBindException(BindException e) {
+    public ErrorResult handleBindException(BindException e) {
         log.error("参数绑定校验异常", e);
 
         return wrapperBindingResult(e.getBindingResult());
@@ -164,7 +164,7 @@ public class UnifiedExceptionHandler {
      */
     @ExceptionHandler(value = MethodArgumentNotValidException.class)
     @ResponseBody
-    public Result handleValidException(MethodArgumentNotValidException e) {
+    public ErrorResult handleValidException(MethodArgumentNotValidException e) {
         log.error("参数绑定校验异常", e);
 
         return wrapperBindingResult(e.getBindingResult());
@@ -176,7 +176,7 @@ public class UnifiedExceptionHandler {
      * @param bindingResult 绑定结果
      * @return 异常结果
      */
-    private Result wrapperBindingResult(BindingResult bindingResult) {
+    private ErrorResult wrapperBindingResult(BindingResult bindingResult) {
         StringBuilder msg = new StringBuilder();
 
         for (ObjectError error : bindingResult.getAllErrors()) {
@@ -188,7 +188,7 @@ public class UnifiedExceptionHandler {
 
         }
 
-        return new Result(BusinessExceptionEnum.VALID_ERROR.getCode(), msg.substring(2));
+        return new ErrorResult(BusinessExceptionEnum.VALID_ERROR.getCode(), msg.substring(2));
     }
 
     /**
@@ -199,7 +199,7 @@ public class UnifiedExceptionHandler {
      */
     @ExceptionHandler(value = Exception.class)
     @ResponseBody
-    public Result handleException(Exception e) {
+    public ErrorResult handleException(Exception e) {
         log.error(e.getMessage(), e);
 
         if (CommonConstants.PRO_PROFILE_NAME.equals(profile)) {
@@ -207,10 +207,10 @@ public class UnifiedExceptionHandler {
             int code = CommonExceptionEnum.SERVER_ERROR.getCode();
             BaseException baseException = new BaseException(CommonExceptionEnum.SERVER_ERROR);
             String message = getMessage(baseException);
-            return new Result(code, message);
+            return new ErrorResult(code, message);
         }
 
-        return new Result(CommonExceptionEnum.SERVER_ERROR.getCode(), e.getMessage());
+        return new ErrorResult(CommonExceptionEnum.SERVER_ERROR.getCode(), e.getMessage());
     }
 
 }

@@ -1,4 +1,4 @@
-package com.winamy.client.common.mybatisPlus;
+package com.winamy.service.common.mybatisPlus;
 
 import com.baomidou.mybatisplus.core.injector.AbstractMethod;
 import com.baomidou.mybatisplus.core.injector.DefaultSqlInjector;

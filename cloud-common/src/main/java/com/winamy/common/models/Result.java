@@ -7,18 +7,22 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 /**
- * @description: 返回结果
+ * @description: 统一返回结果
  * @author: wym
- * @date: 2020/8/20
+ * @date: 2020/11/26
  **/
 @Data
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper = false)
 public class Result<T> implements Serializable {
     private static final long serialVersionUID = 4137772893507260981L;
-    private int code;
-    private String msg;
+    private int code = 0;
+    private String msg = "请求成功";
     private T data;
+
+    public Result(T data) {
+        this.data = data;
+    }
 
     public Result(int code, String msg){
         this.code = code;
@@ -29,5 +33,13 @@ public class Result<T> implements Serializable {
         this.code = code;
         this.msg = msg;
         this.data = data;
+    }
+
+    public static Result ok(Object data){
+        return new Result(data);
+    }
+
+    public static Result fail(int code, String msg){
+        return new Result(code, msg);
     }
 }

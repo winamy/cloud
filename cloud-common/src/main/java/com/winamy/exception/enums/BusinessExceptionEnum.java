@@ -10,7 +10,7 @@ import com.winamy.exception.interfaces.IExceptionEnum;
  * @date: 2020/8/20
  **/
 public enum BusinessExceptionEnum implements IExceptionEnum {
-    VALID_ERROR(1001,"参数校验异常");
+    VALID_ERROR(2001,"参数校验异常");
     private int code;
     private String msg;
 

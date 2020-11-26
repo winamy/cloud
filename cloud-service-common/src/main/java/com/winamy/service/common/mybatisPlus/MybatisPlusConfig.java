@@ -1,4 +1,4 @@
-package com.winamy.client.common.mybatisPlus;
+package com.winamy.service.common.mybatisPlus;
 
 import com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;

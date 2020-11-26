@@ -1,9 +1,9 @@
-package com.winamy.client.service.impl;
+package com.winamy.service.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.winamy.client.dao.IUserDao;
-import com.winamy.client.model.User;
-import com.winamy.client.service.IUserService;
+import com.winamy.service.dao.IUserDao;
+import com.winamy.service.model.User;
+import com.winamy.service.service.IUserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

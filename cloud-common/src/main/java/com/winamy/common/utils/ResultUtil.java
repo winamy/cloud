@@ -1,6 +1,6 @@
 package com.winamy.common.utils;
 
-import com.winamy.common.models.Result;
+import com.winamy.common.models.ErrorResult;
 
 /**
  * @description: 返回结果工具类
@@ -13,15 +13,15 @@ public class ResultUtil {
     private static int FAIL_CODE = -1;
     private static String FAIL_MSG = "请求失败";
 
-    public static <T> Result<T> success(T data){
-        return new Result(SUCCESS_CODE, SUCCESS_MSG, data);
+    public static <T> ErrorResult<T> success(T data){
+        return new ErrorResult(SUCCESS_CODE, SUCCESS_MSG, data);
     }
 
-    public static Result fail(){
-        return new Result(FAIL_CODE, FAIL_MSG);
+    public static ErrorResult fail(){
+        return new ErrorResult(FAIL_CODE, FAIL_MSG);
     }
 
-    public static Result fail(String failMsg){
-        return new Result(FAIL_CODE, failMsg);
+    public static ErrorResult fail(String failMsg){
+        return new ErrorResult(FAIL_CODE, failMsg);
     }
 }
