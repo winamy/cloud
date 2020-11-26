@@ -1,6 +1,0 @@
-description = '服务消费者'
-
-dependencies {
-    compile project(':cloud-client-common')
-    compile project(':cloud-provider-api')
-}

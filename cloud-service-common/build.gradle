@@ -6,7 +6,10 @@ dependencies {
             'org.springframework.boot:spring-boot-starter-actuator',
             'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery',
             'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config',
-            'org.springframework.boot:spring-boot-starter-data-redis-reactive'
+            'org.springframework.boot:spring-boot-starter-data-redis-reactive',
+            'com.baomidou:mybatis-plus-boot-starter:3.4.0',
+            'com.baomidou:mybatis-plus-extension:3.4.0',
+            'mysql:mysql-connector-java'
     )
     compile project(
             ':cloud-common'

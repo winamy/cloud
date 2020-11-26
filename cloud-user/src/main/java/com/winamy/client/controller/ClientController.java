@@ -21,6 +21,7 @@ public class ClientController {
     @Resource
     private IProviderApi providerApi;
 
+
     @RequestMapping("/say")
     public Result<String> say(){
         log.info("调用prodiver开始");

@@ -1,9 +1,9 @@
 rootProject.name = 'cloud'
-include 'cloud-provider'
+include 'cloud-member'
 include 'cloud-common'
 include 'cloud-gateway'
-include 'cloud-client'
-include 'cloud-client-common'
-include 'cloud-provider-api'
+include 'cloud-user'
+include 'cloud-service-common'
+include 'cloud-member-api'
 include 'cloud-api-common'
 

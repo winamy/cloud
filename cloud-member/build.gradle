@@ -1,0 +1,6 @@
+description = '服务提供者'
+
+dependencies {
+    compile project(':cloud-service-common')
+    compile project(':cloud-member-api')
+}
