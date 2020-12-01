@@ -12,4 +12,6 @@ public interface CommonConstants {
     String PRO_PROFILE_NAME = "pro";
     // 统一返回结果标识
     String RESPONSE_RESULT_FLAG = "RESPONSE_RESULT_FLAG";
+    // 重复请求标识
+    String DUPLICATE_REQUEST_PREFIX = "DUP_REQ:";
 }

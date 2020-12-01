@@ -9,6 +9,20 @@ spring:
     url: jdbc:mysql://localhost:3306/gmaya?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
     username: root
     password: admin
+  #redis单机应用环境配置
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: #无密码不配置
+    database: 0 #数据库索引（0-15）默认为0
+    timeout: 300s #连接超时时间
+    #redis连接池配置
+    jedis:
+      pool:
+        max-idle: 16   #最大空闲数(默认8)
+        min-idle: 4    #最小空闲数(默认0)
+        max-active: 20 #最大连接数(默认8)
+        max-wait: 60000ms # 连接池最大阻塞等待时间 默认-1ms （-1 :表示没有限制） 这里设置1分钟
 # mybatis-plus 配置
 mybatis-plus:
   # 如果是放在src/main/java目录下 classpath:/com/yourpackage/*/mapper/*Mapper.xml

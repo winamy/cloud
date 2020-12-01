@@ -12,6 +12,7 @@ public enum CommonExceptionEnum implements IExceptionEnum {
     SERVER_ERROR(100,"系统繁忙，请稍后再试"),
     TIMEOUT(101,"时间超时，请重试"),
     PARAMETER_NOT_FOUND(102,"参数不存在"),
+    DUPLICATE_REQUEST(103,"请勿发起重复请求"),
     UNKNOWN(999,"未知异常");
 
     private int code;
