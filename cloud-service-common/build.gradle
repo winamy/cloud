@@ -10,7 +10,8 @@ dependencies {
             'org.springframework.boot:spring-boot-starter-data-redis-reactive',
             'com.baomidou:mybatis-plus-boot-starter:3.4.0',
             'com.baomidou:mybatis-plus-extension:3.4.0',
-            'mysql:mysql-connector-java'
+            'mysql:mysql-connector-java',
+            'com.github.xiaoymin:knife4j-micro-spring-boot-starter:3.0.2'
     )
     compile project(
             ':cloud-common'

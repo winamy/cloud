@@ -15,6 +15,7 @@ buildscript {
         springBootManagementVersion = '1.0.9.RELEASE'
         springCloudVersion = 'Hoxton.SR1'
         springCloudAlibabaVersion = '2.2.0.RELEASE'
+        knife4jVersion = '3.0.2'
     }
     //构建插件依赖
     repositories {

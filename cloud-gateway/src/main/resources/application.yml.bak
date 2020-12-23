@@ -1,0 +1,79 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      locator:
+        enabled: true
+      x-forwarded:
+        enabled: false
+      routes:
+        # 自定义跳转路由器
+        # 我们自定义的路由ID,保持唯一
+        - id: url-proxy-1
+          # 目标服务地址
+          uri: https://blog.csdn.net
+          # 路由条件，Predicate 接受一个输入参数，返回一个布尔值结果。该接口包含多种默认方法来将 Predicate 组合成其他复杂的逻辑（比如：与，或，非）
+          predicates:
+            # StripPrefix是当请求路径匹配到/name/**会将包含name和后边的字符串接去掉转发， StripPrefix=2就代表截取路径的个数，
+            # 当访问http://localhost:8081/name/aa/5ishare时会跳转到https://blog.csdn.net/5ishare页面
+            - Path=/name/**
+          filters:
+             - StripPrefix=2
+        # 限流filter name必须是 RequestRateLimiter
+        #redis-rate-limiter.replenishRate：允许用户每秒处理多少个请求
+        #redis-rate-limiter.burstCapacity：令牌桶的容量，允许在一秒钟内完成的最大请求数
+        #key-resolver：使用 SpEL 按名称引用 bean
+        - id: requestratelimiter_route
+          uri: http://example.org
+          filters:
+          - name: RequestRateLimiter
+            args:
+              redis-rate-limiter.replenishRate: 10
+              redis-rate-limiter.burstCapacity: 20
+              # 见KeyResolverConfig
+              key-resolver:"#{@hostAddrKeyResolver}"
+        # 熔断路由器
+        - id: hystrix_route
+          uri: lb://spring-cloud-producer
+          predicates:
+            - Path=/consumingserviceendpoint
+          filters:
+            - name: Hystrix
+              args:
+                name: fallbackcmd
+                fallbackUri: forward:/fallback
+        # 重试路由器
+        - id: retry_test
+          uri: lb://spring-cloud-producer
+          predicates:
+            - Path=/retry
+          filters:
+            - name: Retry
+              args:
+                retries: 3
+                statuses: BAD_GATEWAY
+        #
+        - id: shop-dn-member
+          uri: lb://shop-dn-member
+          predicates:
+            - Path=/shop-dn-member/**
+          filters:
+            - SwaggerHeaderFilter
+            - StripPrefix=1
+  #redis单机应用环境配置
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: #无密码不配置
+    database: 0 #数据库索引（0-15）默认为0
+    timeout: 300s #连接超时时间
+    #redis连接池配置
+    jedis:
+      pool:
+        max-idle: 16   #最大空闲数(默认8)
+        min-idle: 4    #最小空闲数(默认0)
+        max-active: 20 #最大连接数(默认8)
+        max-wait: 60000ms # 连接池最大阻塞等待时间 默认-1ms （-1 :表示没有限制） 这里设置1分钟
