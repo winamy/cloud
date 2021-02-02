@@ -2,7 +2,7 @@ server:
   port: 11001
 spring:
   application:
-    name: cloud-client
+    name: cloud-user
   # 数据库配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver

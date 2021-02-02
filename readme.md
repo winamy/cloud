@@ -15,9 +15,10 @@
 - redis
 - mysql
 - mybatis plus
+- knife4j
 
 待添加
-- swagger
+- swagger/smart-doc
 - seata
 - j2cache
 - jwt

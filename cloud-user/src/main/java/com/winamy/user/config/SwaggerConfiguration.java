@@ -30,14 +30,14 @@ public class SwaggerConfiguration {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("cn.xf.member"))
+                .apis(RequestHandlerSelectors.basePackage("com.winamy.user"))
                 .paths(PathSelectors.any())
                 .build();
     }
 
     private ApiInfo apiInfo() {
-        return new ApiInfoBuilder() .title("member接口")
-                .description("member接口").termsOfServiceUrl("http://localhost:7070/") .contact(new Contact("fangxiaofan", "" , "4582841895@qq.com"))
+        return new ApiInfoBuilder() .title("user接口")
+                .description("user接口").termsOfServiceUrl("http://localhost:7070/") .contact(new Contact("winamy", "" , "371443389@qq.com"))
                 .version("1.0") .build();
     }
 }
